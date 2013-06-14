@@ -1,0 +1,26 @@
+diff -urN leechcraft-0.5.97/src/util/CMakeLists.txt leechcraft-0.5.97-patched/src/util/CMakeLists.txt
+--- leechcraft-0.5.97/src/util/CMakeLists.txt	2013-06-11 20:36:13.000000000 +1100
++++ leechcraft-0.5.97-patched/src/util/CMakeLists.txt	2013-06-13 21:10:55.702668132 +1100
+@@ -90,7 +90,8 @@
+ 	${QT_LIBRARIES}
+ 	xmlsettingsdialog
+ 	)
+-SET_PROPERTY (TARGET lcutil PROPERTY SOVERSION 0.5.0)
++SET_PROPERTY (TARGET lcutil PROPERTY VERSION 0.5.0)
++SET_PROPERTY (TARGET lcutil PROPERTY SOVERSION 0)
+ INSTALL (TARGETS lcutil DESTINATION ${LIBDIR})
+ 
+ IF (USE_QT5)
+diff -urN leechcraft-0.5.97/src/xmlsettingsdialog/CMakeLists.txt leechcraft-0.5.97-patched/src/xmlsettingsdialog/CMakeLists.txt
+--- leechcraft-0.5.97/src/xmlsettingsdialog/CMakeLists.txt	2013-06-11 20:36:13.000000000 +1100
++++ leechcraft-0.5.97-patched/src/xmlsettingsdialog/CMakeLists.txt	2013-06-13 21:11:29.220669658 +1100
+@@ -118,7 +118,8 @@
+ TARGET_LINK_LIBRARIES (xmlsettingsdialog
+ 	${QT_LIBRARIES}
+ 	)
+-SET_PROPERTY (TARGET xmlsettingsdialog PROPERTY SOVERSION 0.3.0)
++SET_PROPERTY (TARGET xmlsettingsdialog PROPERTY VERSION 0.3.0)
++SET_PROPERTY (TARGET xmlsettingsdialog PROPERTY SOVERSION 0)
+ INSTALL (TARGETS xmlsettingsdialog DESTINATION ${LIBDIR})
+ 
+ IF (USE_QT5)
