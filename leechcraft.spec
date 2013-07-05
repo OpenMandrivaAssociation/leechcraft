@@ -1,7 +1,7 @@
-Name:		leechcraft
-Version:	0.5.97
-Release:	1
 Summary:	Modular Internet Client
+Name:		leechcraft
+Version:	0.5.98
+Release:	1
 License:	GPLv3+
 Group:		Networking/Other
 Url:		http://leechcraft.org
@@ -17,6 +17,7 @@ BuildRequires:	lm_sensors-devel
 BuildRequires:	magic-devel
 BuildRequires:	qt4-devel
 BuildRequires:	qwt-devel
+BuildRequires:	qxmpp-devel >= 0.7.5
 BuildRequires:	pkgconfig(ddjvuapi)
 BuildRequires:	pkgconfig(hunspell)
 BuildRequires:	pkgconfig(libchromaprint)
@@ -25,10 +26,10 @@ BuildRequires:	pkgconfig(libpcre)
 BuildRequires:	pkgconfig(libspectre)
 BuildRequires:	pkgconfig(libtorrent-rasterbar)
 BuildRequires:	pkgconfig(phonon)
+BuildRequires:	pkgconfig(poppler-cpp)
 BuildRequires:	pkgconfig(poppler-qt4)
 BuildRequires:	pkgconfig(qca2)
 BuildRequires:	pkgconfig(QJson)
-BuildRequires:	pkgconfig(qxmpp)
 BuildRequires:	pkgconfig(taglib)
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xscrnsaver)
