@@ -1,6 +1,6 @@
 Summary:	Modular Internet Client
 Name:		leechcraft
-Version:	0.5.98
+Version:	0.5.99
 Release:	1
 License:	GPLv3+
 Group:		Networking/Other
@@ -49,7 +49,7 @@ files via BitTorrent, HTTP, FTP and DC, automatically stream,
 download or play podcasts and other media files and much more.
 
 Features can be easily added via plugins that can be integrated with
-each other with no effert while staying abstract from the exact
+each other with no effect while staying abstract from the exact
 implementation.
 
 This package contains the main LeechCraft executable, which connects
