@@ -1,0 +1,12 @@
+diff -urN leechcraft-0.5.99/src/plugins/musiczombie/chroma.cpp leechcraft-0.5.99-patched/src/plugins/musiczombie/chroma.cpp
+--- leechcraft-0.5.99/src/plugins/musiczombie/chroma.cpp	2013-07-13 20:04:11.000000000 +1100
++++ leechcraft-0.5.99-patched/src/plugins/musiczombie/chroma.cpp	2013-08-05 20:52:44.000000000 +1100
+@@ -133,7 +133,7 @@
+ 		auto remaining = maxLength * codecCtx->channels * codecCtx->sample_rate;
+ 		chromaprint_start (Ctx_, codecCtx->sample_rate, codecCtx->channels);
+ 
+-		const int bufferSize = AVCODEC_MAX_AUDIO_FRAME_SIZE * 2;
++		const int bufferSize = 192000 * 2;
+ 		int16_t *buffer = static_cast<int16_t*> (av_malloc (bufferSize + 16));
+ 
+ 		while (true)

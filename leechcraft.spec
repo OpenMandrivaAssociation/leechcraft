@@ -1,6 +1,6 @@
 Summary:	Modular Internet Client
 Name:		leechcraft
-Version:	0.5.99
+Version:	0.6.0
 Release:	1
 License:	GPLv3+
 Group:		Networking/Other
@@ -8,6 +8,7 @@ Url:		http://leechcraft.org
 Source0:	http://netcologne.dl.sourceforge.net/project/%{name}/LeechCraft/%{version}/%{name}-%{version}.tar.xz
 Patch0:		leechcraft-0.5.97-linkage.patch
 Patch1:		leechcraft-0.5.97-soname.patch
+Patch2:		leechcraft-0.5.99-ffmpeg2.0.patch
 BuildRequires:	cmake
 BuildRequires:	boost-devel
 BuildRequires:	ffmpeg-devel
@@ -1225,6 +1226,7 @@ It allows to configure and use proxy servers.
 %setup -q
 %patch0 -p1
 %patch1 -p1
+%patch2 -p1
 
 %build
 %global optflags %{optflags} -O0
