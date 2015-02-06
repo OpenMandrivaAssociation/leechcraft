@@ -1,7 +1,7 @@
 Summary:	Modular Internet Client
 Name:		leechcraft
 Version:	0.6.0
-Release:	1
+Release:	2
 License:	GPLv3+
 Group:		Networking/Other
 Url:		http://leechcraft.org
