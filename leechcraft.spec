@@ -4,7 +4,7 @@ Version:	0.6.0
 Release:	2
 License:	GPLv3+
 Group:		Networking/Other
-Url:		http://leechcraft.org
+Url:		https://leechcraft.org
 Source0:	http://netcologne.dl.sourceforge.net/project/%{name}/LeechCraft/%{version}/%{name}-%{version}.tar.xz
 Patch0:		leechcraft-0.5.97-linkage.patch
 Patch1:		leechcraft-0.5.97-soname.patch
